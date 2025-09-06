@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 style="color:#007bff;">Edit Patient</h2>
+<form method="post">{% csrf_token %}
+  <input type="text" name="name" value="{{ patient.name }}" required style="margin:5px;"><br>
+  <input type="number" name="age" value="{{ patient.age }}" required style="margin:5px;"><br>
+  <textarea name="address" required style="margin:5px;">{{ patient.address }}</textarea><br>
+  <button type="submit" style="background:#007bff;color:white;padding:5px 10px;">Update</button>
+</form>
+{% endblock %}

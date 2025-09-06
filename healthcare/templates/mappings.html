@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient-Doctor Mappings</title>
+</head>
+<body>
+    <h2>Mappings</h2>
+    <ul>
+        {% for mapping in mappings %}
+            <li>Patient: {{ mapping.patient.name }} - Doctor: {{ mapping.doctor.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
