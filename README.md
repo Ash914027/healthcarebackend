@@ -1,6 +1,6 @@
 # Healthcare Application Backend System Assignment
 
-The goal of this assignment is to create a backend system for a healthcare application using Django, Django REST Framework (DRF), and PostgreSQL. The system should allow users to register, log in, and manage patient and doctor records securely
+The goal of this assignment is to create a backend system for a healthcare application using Django, Django REST Framework (DRF), and PostgreSQL. The system should allow users to register, log in, and manage patient and doctor records securely.
 
 ## Requirements
 - Use Django and Django REST Framework (DRF) for the backend.
